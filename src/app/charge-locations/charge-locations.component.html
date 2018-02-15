@@ -1,0 +1,7 @@
+<p>
+  {{ tulos.data }}
+</p>
+
+<p *ngFor="let tulos of tulokset">
+  <img [src]="kuvaosoite + tulos.filename">
+</p>

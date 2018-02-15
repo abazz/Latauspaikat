@@ -3,14 +3,18 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
+import { ChargeLocationsComponent } from './charge-locations/charge-locations.component';
+import {HttpClientModule} from '@angular/common/http';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ChargeLocationsComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+      HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
